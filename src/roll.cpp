@@ -16,3 +16,8 @@ int Roll::roll_value() const
 {
     return value;
 }
+
+void Roll::test_value(int x)
+{
+    value = x;
+}
